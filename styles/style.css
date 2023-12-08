@@ -1225,10 +1225,11 @@ body {
 	}
 
 	.projects__items {
-		grid-template-columns: 99px 1fr;
+		grid-template-columns: 99px 150px;
 		column-gap: 61px;
 		row-gap: 27px;
 		margin-bottom: 0;
+		justify-content: center;
 	}
 
 	.projects__item-title {
@@ -1615,6 +1616,13 @@ body {
 	.control__video-link-img {
 		width: 37px;
 		height: 37px;
+	}
+}
+
+
+@media (max-width: 375px) {
+	.projects__items {
+		justify-content: flex-start;
 	}
 }
 
