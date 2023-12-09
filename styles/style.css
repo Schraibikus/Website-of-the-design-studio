@@ -454,7 +454,6 @@ body {
 }
 
 .control__form {
-	min-width: 770px;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	align-items: center;
